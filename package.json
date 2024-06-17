@@ -1,6 +1,6 @@
 {
   "name": "@sydjalees/eid-card-typescript",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "This is a simple CLI based Eid Greetings Card with using typescript",
   "main": "index.js",
   "type": "module",

@@ -12,19 +12,19 @@ let Regards = await inquirer.prompt([
 const  card = Regards.regards
 
 function Wishing(Eid:any){
-    Eid("AL AZHA")
+    Eid("AL-AZHA")
 }
 
 let wish = (konsiEid:string)=>{
-    console.log(chalk.yellow("\n\n\t      Wishing You\n"));
+    console.log(chalk.yellow("\n\n\t      Wishing You.....\n"));
     
-    setTimeout(()=>{console.log(chalk.blueBright("\t\tHappy..."));
+    setTimeout(()=>{console.log(chalk.greenBright("\t\tHappy.."));
     },1000)
-    setTimeout(()=>{console.log(chalk.redBright(`\t\tEid`));
+    setTimeout(()=>{console.log(chalk.blueBright(`\t\t**Eid**`));
     },2000);
-    setTimeout(()=>{console.log(chalk.redBright(`\t\t${konsiEid}`));
+    setTimeout(()=>{console.log(chalk.redBright(`\t\t***${konsiEid}***`));
     },2500);
-    setTimeout(()=>{console.log(chalk.blueBright(`\t\tMubarak..!`));
+    setTimeout(()=>{console.log(chalk.greenBright(`\t\tMubarak..!`));
     },3000);
 }
 Wishing(wish)
